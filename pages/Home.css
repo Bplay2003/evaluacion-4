@@ -1,0 +1,33 @@
+.home {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.home h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.home p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-top: 1rem;
+}
+
+.home .banner {
+    margin-top: 2rem;
+}
+
+.home .btn {
+    padding: 0.7rem 2rem;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.home .btn:hover {
+    background-color: #0056b3;
+}
