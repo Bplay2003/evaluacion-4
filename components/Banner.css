@@ -1,0 +1,43 @@
+/* Contenedor de la barra de filtro */
+.filter-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    gap: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilo de las etiquetas */
+  .filter-bar label {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-right: 10px;
+    color: #333;
+  }
+  
+  /* Estilo de los selectores */
+  .filter-select {
+    padding: 8px 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  /* Efecto hover y focus en los selectores */
+  .filter-select:hover {
+    border-color: #007bff;
+  }
+  
+  .filter-select:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
